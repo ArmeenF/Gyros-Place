@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section,
+footer {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero-section {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero-section h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+}
+
+.menu-category,
+.menu-item {
+    margin: 20px 0;
+}
+
+.menu-item {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.contact-info p,
+.social-media a {
+    display: block;
+}
+
+.social-media a {
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .menu-item {
+        text-align: center;
+        margin-left: 0;
+    }
+}
